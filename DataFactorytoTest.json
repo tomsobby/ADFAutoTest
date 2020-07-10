@@ -1,0 +1,10 @@
+[
+  {
+    "DAName": "TATestDataFactory",
+    "ResourceGroup":"playgroundgrp"
+  },
+  {
+    "DAName": "TASecondDataFactory",
+    "ResourceGroup": "playgroundgrp"
+  }
+]
