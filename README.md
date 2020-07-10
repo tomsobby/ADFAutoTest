@@ -11,10 +11,12 @@ Features to add
 Usage
 ======================
 1. run the script from the powershell commandline
+
   e.g. c:\PS> ADFTest.ps1
   all execution and report will be printed to the console
   
 2. redirect Report to a log file
+
   e.g. c:\PS> .\ADFTest.ps1 | Out-File .\Report.log
   
 Config File
