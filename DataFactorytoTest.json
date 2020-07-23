@@ -1,10 +1,21 @@
 [
   {
     "DAName": "TATestDataFactory",
-    "ResourceGroup":"playgroundgrp"
+    "ResourceGroup": "playgroundgrp",
+    "pipelines": [
+     { "name":"pipelineCopyTxn",
+        "parameters": 
+              {"param1":"value1", "param2": "value2"}
+     },
+     { "name":"CopyPipeline_m7p" }
+    ]
   },
   {
     "DAName": "TASecondDataFactory",
-    "ResourceGroup": "playgroundgrp"
+    "ResourceGroup": "playgroundgrp",
+    "pipelines": [
+     { "name":"Doesnotexistthrowerror" }
+    ]
   }
+
 ]
