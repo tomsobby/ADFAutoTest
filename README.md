@@ -1,12 +1,14 @@
-# ADFAutoTest
+# ADFAutoTest v0.2
 This is a first cut for automated testing of Azure Data Factory pipelines using the poqwershell AZ modules. Ensure the Az modules are installed prior to running the powershell. Rm modules are legacy and replaced with Az.
 
-Features to add
+New Features
 =========================================
-1. Add pipeline exclusion
+1. Specify pipelines in the JSON file to ensure ordered execution
 2. Passing parameters to Pipelines
-3. Connect to Azure using Managed Service Identity
 
+Future enhancement
+=========================================
+1.Managed Identity for Azure Connect
 
 Usage
 ======================
@@ -20,4 +22,4 @@ Usage
 Config File
 ========================
 Ensure the json file is in the same directory as the ps1 file. 
-  
+
